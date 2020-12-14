@@ -1,0 +1,33 @@
+name: Publish
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  documentation:
+    name: Publish
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Download zola
+        run: |
+          wget https://github.com/getzola/zola/releases/download/v0.12.2/zola-v0.12.2-x86_64-unknown-linux-gnu.tar.gz
+          tar -xf zola-v0.12.2-x86_64-unknown-linux-gnu.tar.gz
+
+      - name: Build site
+        run: ./zola build
+
+      - name: Push
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BASE_BRANCH: main
+          BRANCH: build
+          FOLDER: public
+          SINGLE_COMMIT: true
