@@ -1,0 +1,9 @@
+{%- extends "base.html" -%}
+
+{%- block body_attrs -%}
+class="index"
+{%- endblock -%}
+
+{%- block body -%}
+{{- section.content | safe -}}
+{%- endblock -%}

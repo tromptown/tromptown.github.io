@@ -1,0 +1,35 @@
+$nav-height: 3.5rem;
+
+:root {
+    --primary-fg: #111;
+    --primary-bg: #fff;
+    --primary-fg-subtle: #1111117f;
+    --secondary-fg: #222;
+    --secondary-bg: #f7f7f7;
+    --accent-fg: #fff;
+    --accent-bg: #222;
+    --link-color: #05c;
+    --link-hover-color: #009;
+
+    @media (prefers-color-scheme: dark) {
+        --primary-fg: #eee;
+        --primary-bg: #171717;
+        --primary-fg-subtle: #eeeeee7f;
+        --secondary-fg: #eee;
+        --secondary-bg: #111;
+        --accent-fg: #000;
+        --accent-bg: #559;
+        --link-color: #39c;
+        --link-hover-color: #5cf;
+    }
+}
+
+$primary-fg: var(--primary-fg);
+$primary-bg: var(--primary-bg);
+$primary-fg-subtle: var(--primary-fg-subtle);
+$secondary-fg: var(--secondary-fg);
+$secondary-bg: var(--secondary-bg);
+$accent-fg: var(--accent-fg);
+$accent-bg: var(--accent-bg);
+$link-color: var(--link-color);
+$link-hover-color: var(--link-hover-color);

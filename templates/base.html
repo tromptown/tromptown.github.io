@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        {%- if page.title is defined and page.title != "" -%}
+            <title>{{ page.title }} | {{ config.title }}</title>
+        {%- elif section.title is defined and section.title != "" -%}
+            <title>{{ section.title }} | {{ config.title }}</title>
+        {%- else -%}
+            <title>{{ config.title }}</title>
+        {%- endif -%}
+        <link rel="stylesheet" href="{{ get_url(path = "all.css") | safe }}">
+    </head>
+    <body {% block body_attrs %}{% endblock bodyattrs %}>
+        <nav>
+            <a href="{{ get_url(path = "@/_index.md") | safe }}">Home</a>
+            <a href="{{ get_url(path = "@/catalog.md") | safe }}">Catalog</a>
+            <a href="{{ get_url(path = "@/exhibits.md") | safe }}">Exhibits</a>
+            <a href="{{ get_url(path = "@/remember_when.md") | safe }}">Remember When</a>
+            <a href="{{ get_url(path = "@/officers.md") | safe }}">Officers</a>
+        </nav>
+
+        <main>
+            {%- block body -%}{%- endblock body -%}
+        </main>
+    </body>
+</html>

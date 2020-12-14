@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap");
+@import url("https://rsms.me/inter/inter.css");
+@import "_variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: "Inter", sans-serif;
+
+    @supports (font-variation-settings: normal) {
+        font-family: "Inter var", sans-serif;
+        font-feature-settings: "case", "ss01", "cv05";
+    }
+
+    background-color: $primary-bg;
+    color: $primary-fg;
+}
+
+nav {
+    height: $nav-height;
+    background-color: $secondary-bg;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    > a {
+        color: $secondary-fg;
+        display: inline-block;
+        text-decoration: none;
+        line-height: 0; // override to simplify padding calculation
+        padding: ($nav-height / 2) 0;
+        margin: 0 0.8rem;
+        transition: box-shadow 150ms ease-in-out;
+
+        &:hover,
+        &:focus {
+            color: $secondary-fg;
+            box-shadow: 0 -6px 0 $secondary-bg inset, 0 -9px 0 $secondary-fg inset;
+        }
+    }
+}
+
+main {
+    width: 900px;
+    max-width: calc(100% - 3rem);
+    margin: 2rem auto 3rem;
+}
+
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+a {
+    color: $link-color;
+
+    &:hover {
+        color: $link-hover-color;
+    }
+
+    &:not(:hover) {
+        text-decoration: none;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 1rem;
+}
+
+h1,
+h2 {
+    border-bottom: 1px solid $primary-fg-subtle;
+    padding-bottom: 0.5rem;
+}
+
+h1 {
+    font-size: 2.25rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+ul,
+ol {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+li:not(:last-child) {
+    margin-bottom: 0.5rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tbody tr {
+    &:nth-child(even) {
+        background-color: $secondary-bg;
+    }
+
+    &:last-child:nth-child(odd) {
+        border-bottom: 6px solid $secondary-bg;
+    }
+}
+
+th {
+    color: $accent-fg;
+    background: $accent-bg;
+    font-weight: normal;
+}
+
+th,
+td {
+    padding: 0.8rem 1rem;
+
+    &:first-child {
+        padding-left: 2rem;
+    }
+
+    &:last-child {
+        padding-right: 2rem;
+    }
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid $primary-fg-subtle;
+}
+
+blockquote {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    border-left: 3px solid $primary-fg-subtle;
+}
+
+pre {
+    margin-top: 0.5rem;
+}
+
+code {
+    font-family: "Fira Code", monospace;
+}
+
+.mt1 {
+    margin-top: 1rem;
+}
+
+.tac {
+    text-align: center;
+}
