@@ -9,15 +9,15 @@
         {%- else -%}
             <title>{{ config.title }}</title>
         {%- endif -%}
-        <link rel="stylesheet" href="{{ get_url(path = "all.css") | safe }}">
+        <link rel="stylesheet" href="{{ get_url(path = "all.css", cachebust = true) | safe }}">
     </head>
     <body {% block body_attrs %}{% endblock bodyattrs %}>
+        {%- set top_section = get_section(path = "_index.md") -%}
         <nav>
-            <a href="{{ get_url(path = "@/_index.md") | safe }}">Home</a>
-            <a href="{{ get_url(path = "@/catalog.md") | safe }}">Catalog</a>
-            <a href="{{ get_url(path = "@/exhibits.md") | safe }}">Exhibits</a>
-            <a href="{{ get_url(path = "@/remember_when.md") | safe }}">Remember When</a>
-            <a href="{{ get_url(path = "@/officers.md") | safe }}">Officers</a>
+            <a href="{{ top_section.permalink | safe }}">{{ top_section.title }}</a>
+            {%- for page in top_section.pages -%}
+                <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+            {%- endfor -%}
         </nav>
 
         <main>

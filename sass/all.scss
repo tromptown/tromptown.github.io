@@ -41,7 +41,8 @@ nav {
         &:hover,
         &:focus {
             color: $secondary-fg;
-            box-shadow: 0 -6px 0 $secondary-bg inset, 0 -9px 0 $secondary-fg inset;
+            box-shadow: 0 -6px 0 $secondary-bg inset,
+                0 -9px 0 $secondary-fg inset;
         }
     }
 }

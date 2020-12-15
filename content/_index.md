@@ -1,5 +1,7 @@
 +++
 title = "Home"
+sort_by = "weight"
+weight = 0
 +++
 
 # Tromptown Historical Society

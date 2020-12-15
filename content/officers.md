@@ -1,5 +1,6 @@
 +++
 title = "Officers"
+weight = 5
 +++
 
 # Society Officers
@@ -55,4 +56,5 @@ If you don't, it won't render correctly on the website.
 [(315) 852-2067]: tel:+13158522067
 [(315) 852-9712]: tel:+13158529712
 [danitakinner@hotmail.com]: mailto:danitakinner@hotmail.com
+
 [contact@jhpratt.dev]: [contact@jhpratt.dev]

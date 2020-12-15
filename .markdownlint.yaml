@@ -1,0 +1,7 @@
+MD013:
+  tables: false
+  headings: false
+  headers: false
+  strict: true
+MD025:
+  front_matter_title: ""
