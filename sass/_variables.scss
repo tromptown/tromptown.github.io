@@ -3,7 +3,7 @@ $nav-height: 3.5rem;
 :root {
     --primary-fg: #111;
     --primary-bg: #fff;
-    --primary-fg-subtle: #1111117f;
+    --primary-fg-subtle: #1119;
     --secondary-fg: #222;
     --secondary-bg: #f7f7f7;
     --accent-fg: #fff;
@@ -14,7 +14,7 @@ $nav-height: 3.5rem;
     @media (prefers-color-scheme: dark) {
         --primary-fg: #eee;
         --primary-bg: #171717;
-        --primary-fg-subtle: #eeeeee7f;
+        --primary-fg-subtle: #eee9;
         --secondary-fg: #eee;
         --secondary-bg: #111;
         --accent-fg: #000;

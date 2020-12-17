@@ -6,6 +6,14 @@ weight = 0
 
 # Tromptown Historical Society
 
+{{ figure(
+    src = "../unprocessed/admiral_de_ruyter.jpg",
+    alt = "Michiel de Ruyter",
+    caption = "Admiral Michiel de Ruyter, namesake of the town",
+    width = 250,
+    float = "right"
+) }}
+
 The Tromptown Historical Society was founded in 1975 and chartered by the State
 Education Department in 1978. The group's focus has been collecting and
 preserving historical materials of DeRuyter and surrounding areas. These are

@@ -1,0 +1,24 @@
+{% set metadata = get_image_metadata(path = src) %}
+{% set width = width | default(value = metadata.width) %}
+
+{% set style = "max-width:" ~ width ~ "px;" %}
+
+{% if float == "left" %}
+    {% set class = "float-left" %}
+{% elif float == "right" %}
+    {% set class = "float-right" %}
+{% endif %}
+
+<figure style="{{ style }}" {% if class %} class="{{ class }}" {% endif %}>
+    <img
+        src="{{
+            resize_image(
+                path = src,
+                width = width,
+                op = "fit_width"
+            ) | safe
+        }}"
+        {% if alt %} alt="{{ alt }}" {% endif %}
+    >
+    <figcaption>{{ caption }}</figcaption>
+</figure>

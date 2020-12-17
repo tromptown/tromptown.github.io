@@ -164,3 +164,32 @@ blockquote {
     padding-left: 1rem;
     border-left: 3px solid $primary-fg-subtle;
 }
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+figure {
+    margin-bottom: 0.5rem;
+    font-size: 0;
+
+    &.float-left {
+        margin-right: 1rem;
+    }
+
+    &.float-right {
+        margin-left: 1rem;
+    }
+}
+
+figcaption {
+    padding: 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+    background-color: $primary-fg-subtle;
+    color: $primary-bg;
+}
