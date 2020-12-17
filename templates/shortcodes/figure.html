@@ -20,5 +20,5 @@
         }}"
         {% if alt %} alt="{{ alt }}" {% endif %}
     >
-    <figcaption>{{ caption }}</figcaption>
+    {% if caption %} <figcaption>{{ caption }}</figcaption> {% endif %}
 </figure>

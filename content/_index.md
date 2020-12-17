@@ -21,6 +21,14 @@ housed in our museum at 712 Utica Street. We offer a number of programs,
 including assisting with genealogy searches and historical reports. We
 participate in the Firemen's Field Days.
 
+{{ figure(
+    src = "../unprocessed/building.jpg",
+    alt = "exterior of the DeRuyter Museum",
+    caption = "Exterior of the DeRuyter Museum",
+    width = 250,
+    float = "left"
+) }}
+
 The Society is actively seeking new members and we always need additional
 donations. Membership and donations are vital to the existence of our
 organization. We need members to become involved with our existing projects and

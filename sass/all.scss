@@ -89,12 +89,6 @@ h6 {
     margin-top: 1rem;
 }
 
-h1,
-h2 {
-    border-bottom: 1px solid $primary-fg-subtle;
-    padding-bottom: 0.5rem;
-}
-
 h1 {
     font-size: 2.25rem;
 }
@@ -167,10 +161,12 @@ blockquote {
 
 .float-right {
     float: right;
+    clear: right;
 }
 
 .float-left {
     float: left;
+    clear: left;
 }
 
 figure {
@@ -184,6 +180,14 @@ figure {
     &.float-right {
         margin-left: 1rem;
     }
+
+    img {
+        border-radius: 10px 10px 0 0;
+
+        &:last-child {
+            border-radius: 10px;
+        }
+    }
 }
 
 figcaption {
@@ -192,4 +196,5 @@ figcaption {
     text-align: center;
     background-color: $primary-fg-subtle;
     color: $primary-bg;
+    border-radius: 0 0 10px 10px;
 }
