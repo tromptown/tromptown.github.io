@@ -20,7 +20,7 @@
 }
 
 nav {
-    height: $nav-height;
+    min-height: $nav-height;
     background-color: $secondary-bg;
 
     display: flex;
