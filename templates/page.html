@@ -1,5 +1,11 @@
 {%- extends "base.html" -%}
 
+{%- block body_attrs -%}
+{% if page.extra.body_class is defined %}
+class = {{ '"' ~ page.extra.body_class ~ '"' }}
+{% endif %}
+{%- endblock -%}
+
 {%- block body -%}
 {{- page.content | safe -}}
 {%- endblock -%}

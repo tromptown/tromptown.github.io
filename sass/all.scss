@@ -170,8 +170,9 @@ blockquote {
 }
 
 figure {
+    display: flex;
+    flex-flow: column;
     margin-bottom: 0.5rem;
-    font-size: 0;
 
     &.float-left {
         margin-right: 1rem;
@@ -192,9 +193,12 @@ figure {
 
 figcaption {
     padding: 0.5rem;
-    font-size: 1rem;
     text-align: center;
     background-color: $primary-fg-subtle;
     color: $primary-bg;
     border-radius: 0 0 10px 10px;
+}
+
+.remember-when {
+    @import "_remember-when";
 }

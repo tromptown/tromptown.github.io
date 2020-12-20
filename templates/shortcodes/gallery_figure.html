@@ -1,0 +1,20 @@
+{% set metadata = get_image_metadata(path = src) %}
+{% set width = metadata.width %}
+{% set height = 300 %} {# make sure to update the CSS if changing this value! #}
+
+{% set final_width = height / metadata.height * width | round %}
+{% set figure_style = "width:" ~ final_width ~ "px;" %}
+
+<figure style={{ figure_style }}>
+    <img
+        src="{{
+            resize_image(
+                path = src,
+                height = height,
+                op = "fit_height"
+            ) | safe
+        }}"
+        {% if alt %} alt="{{ alt }}" {% endif %}
+    >
+    {% if caption %} <figcaption>{{ caption }}</figcaption> {% endif %}
+</figure>

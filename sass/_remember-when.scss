@@ -1,0 +1,29 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 1300px;
+    gap: 1em;
+}
+
+figure {
+    max-width: 100%;
+
+    @media (min-width: $mobile-breakpoint) {
+        height: calc(300px + 2em);
+        position: relative;
+    }
+}
+
+@media (min-width: $mobile-breakpoint) {
+    figcaption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        min-height: 2em;
+
+        background-color: $primary-fg;
+    }
+}

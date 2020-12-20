@@ -6,7 +6,7 @@ weight = 0
 
 # Tromptown Historical Society
 
-{{ figure(
+{{ inline_figure(
     src = "../unprocessed/admiral_de_ruyter.jpg",
     alt = "Michiel de Ruyter",
     caption = "Admiral Michiel de Ruyter, namesake of the town",
@@ -21,7 +21,7 @@ housed in our museum at 712 Utica Street. We offer a number of programs,
 including assisting with genealogy searches and historical reports. We
 participate in the Firemen's Field Days.
 
-{{ figure(
+{{ inline_figure(
     src = "../unprocessed/building.jpg",
     alt = "exterior of the DeRuyter Museum",
     caption = "Exterior of the DeRuyter Museum",

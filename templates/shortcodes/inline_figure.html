@@ -3,9 +3,10 @@
 
 {% set style = "max-width:" ~ width ~ "px;" %}
 
-{% if float == "left" %}
+{% set class = "" %}
+{% if float is defined and float == "left" %}
     {% set class = "float-left" %}
-{% elif float == "right" %}
+{% elif float is defined and float == "right" %}
     {% set class = "float-right" %}
 {% endif %}
 
