@@ -70,7 +70,7 @@ had families, members of which and their descendants have been prominent in the
 community. Joseph Messenger, Samuel Thompson, and William and Thompson Burdick
 became settlers in 1795, and Daniel Page, Gideon Foster and Eleazer Gage a
 little later. In 1800, or within a year or two thereafter, Matthew Wells,
-Jonathan Shed, Darius Benjamin, Samuel Bowen, LEvi Wood, Sylvester Crumb and
+Jonathan Shed, Darius Benjamin, Samuel Bowen, Levi Wood, Sylvester Crumb and
 probably a few others located in different parts of the town. Among other
 settlers previous to or about the time of the formation of the county in 1806
 were Joseph Rich, Jonathan Bentley, Benjamin Merchant, Job Webb, Benjamin
@@ -245,7 +245,7 @@ Wilcox.
 
 Burdick Settlement, in the north part of the town, contains a Seventh Day
 Baptist church, a school house, a blacksmith shop, two shoe shops, a wagon shop,
-a cheese factory, and sixteen dwellings. The cheese factory of JErome F.
+a cheese factory, and sixteen dwellings. The cheese factory of Jerome F.
 Wheeler, located at this place, makes English cheddar cheese. The Church in this
 place was set off from DeRuyter in 1831, and contained at the time of its
 organization thirty members. The present number is 91. Rev. Lebeus M. Burdick
