@@ -1,4 +1,4 @@
 base_url = "https://tromptown.github.io"
 title = "Tromptown Historical Society"
 compile_sass = true
-hard_link_static = true
+# hard_link_static = true

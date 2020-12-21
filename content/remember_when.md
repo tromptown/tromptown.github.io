@@ -12,6 +12,24 @@ body_class = "remember-when"
 ) }}
 
 {{ gallery_figure(
+    src = "../unprocessed/marriage_certificate.jpg",
+    alt = "ornate marriage certificate",
+    caption = "Ornate marriage certificate"
+) }}
+
+{{ gallery_figure(
+    src = "../unprocessed/bond_cover.jpg",
+    alt = "state-funded loan for DeRuyter",
+    caption = "State-funded loan for the village of DeRuyter, 1882"
+) }}
+
+{{ gallery_figure(
+    src = "../unprocessed/bond_full.jpg",
+    alt = "state-funded loan for DeRuyter",
+    caption = "For unclear reasons, the bond was never registered or used."
+) }}
+
+{{ gallery_figure(
     src = "../unprocessed/1944_graduation.jpg",
     alt = "1944 graduation at DeRuyter High School",
     caption = "1944 graduation at DeRuyter High School"
@@ -45,6 +63,12 @@ body_class = "remember-when"
 ) }}
 
 {{ gallery_figure(
+    src = "../unprocessed/railroad_station.jpg",
+    alt = "DeRuyter railroad station",
+    caption = "DeRuyter railroad station"
+) }}
+
+{{ gallery_figure(
     src = "../unprocessed/main_street.jpg",
     alt = "main street",
     caption = "Main street in DeRuyter"
@@ -60,13 +84,7 @@ body_class = "remember-when"
 {{ gallery_figure(
     src = "../unprocessed/bear.jpg",
     alt = "man standing with a bear",
-    caption = "Man standing with a bear in DeRuyter. Why is unknown."
-) }}
-
-{{ gallery_figure(
-    src = "../unprocessed/marriage_certificate.jpg",
-    alt = "ornate marriage certificate",
-    caption = "Ornate marriage certificate"
+    caption = "Man with a bear in DeRuyter. Why is unknown."
 ) }}
 
 {{ gallery_figure(
@@ -95,4 +113,47 @@ body_class = "remember-when"
     caption = "First phone exchange in DeRuyter. Located in Elwyn S. Newitt
         Store on the corner of Cortland and Division Streets. Operational
         November 5, 1905 to December 16, 1909."
+) }}
+
+{{ gallery_figure(
+    src = "../unprocessed/post_office.jpg",
+    alt = "post office",
+    caption = "Post office in DeRuyter"
+) }}
+
+{{ gallery_figure(
+    src = "../unprocessed/union_academy_2.jpg",
+    alt = "DeRuyter Union School and Academy",
+    caption = "DeRuyter Union School and Academy"
+) }}
+
+{{ gallery_figure(
+    src = "../unprocessed/union_academy_1.jpg",
+    alt = "DeRuyter Union School and Academy",
+    caption = "DeRuyter Union School and Academy"
+) }}
+
+{{ gallery_figure(
+    src = "../unprocessed/town_hall.jpg",
+    alt = "town hall",
+    caption = "DeRuyter's first town hall"
+) }}
+
+{{ gallery_figure(
+    src = "../unprocessed/basketball_team_2.jpg",
+    alt = "DeRuyter's first basketball team",
+    caption = "The first basketball game in DeRuyter took place on January 23,
+        1908. DeRuyter defeated Truxton 29‑26. Truxton won a previous matchup."
+) }}
+
+{{ gallery_figure(
+    src = "../unprocessed/basketball_team_1.jpg",
+    alt = "DeRuyter's first basketball team",
+    caption = "DeRuyter's first basketball team"
+) }}
+
+{{ gallery_figure(
+    src = "../unprocessed/wibert_house.jpg",
+    alt = "Wibert house",
+    caption = "Wibert house"
 ) }}
