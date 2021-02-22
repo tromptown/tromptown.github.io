@@ -84,7 +84,9 @@ body_class = "remember-when"
 {{ gallery_figure(
     src = "../unprocessed/bear.jpg",
     alt = "man standing with a bear",
-    caption = "Man with a bear in DeRuyter. Why is unknown."
+    caption = "Man with a bear in DeRuyter. The bear travelled town-to-town,
+        and was trained to enter a bank with quarters and leave with dollar
+        bills."
 ) }}
 
 {{ gallery_figure(
