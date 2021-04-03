@@ -8,7 +8,7 @@ The Tromptown Historical Society has a number of items for sale.
 | Item                                                                        |                    Price |
 | --------------------------------------------------------------------------- | -----------------------: |
 | History of DeRuyter & Vicinity<br>Written by Walter R. Wood, copyright 1964 |                    $8.00 |
-| Heirloom Recipes Cookbook<br>1000 recipes!                                  | $12.00<br>$3.00 shipping |
+| Heirloom Recipes Cookbook<br>1000 recipes!                                  | $12.00<br>$4.00 shipping |
 | Henry Breed's Pioneer History<br>Quaker Basin                               |                    $4.00 |
 | 7th Day Baptist Church Pewter Ornaments                                     |                   $12.00 |
 | Stories of Cuyler<br>Volume 1                                               |                    $6.00 |
