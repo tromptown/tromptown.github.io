@@ -20,6 +20,7 @@ weight = 5
 | Jean Houck     |
 | Lynn Jackson   |
 | Jennifer Jones |
+| Amanda Ladd    |
 
 # Committee Chairs
 
@@ -46,7 +47,8 @@ If you don't, it won't render correctly on the website.
 | Lynn Jackson  | [(315) 852-2067] |                            |
 | Danita Kinner | [(315) 852-9694] | [danitakinner@hotmail.com] |
 | Eric Kinner   | [(315) 852-9694] |                            |
-| Jacob Pratt   | Upon request     | [contact@jhpratt.dev]      |
+| Amanda Ladd   | [(315) 852-2040] |                            |
+| Jacob Pratt   | Upon request     | [jacob@jhpratt.dev]        |
 | Nell Ziegler  | [(315) 374-9605] |                            |
 
 [(607) 753-7043]: tel:+16077537043
@@ -55,6 +57,6 @@ If you don't, it won't render correctly on the website.
 [(315) 852-9963]: tel:+13158529963
 [(315) 852-2067]: tel:+13158522067
 [(315) 852-9712]: tel:+13158529712
+[(315) 852-2040]: tel:+13158522040
 [danitakinner@hotmail.com]: mailto:danitakinner@hotmail.com
-
-[contact@jhpratt.dev]: [contact@jhpratt.dev]
+[jacob@jhpratt.dev]: [jacob@jhpratt.dev]
