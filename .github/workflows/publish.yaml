@@ -24,10 +24,9 @@ jobs:
         run: ./zola build
 
       - name: Push
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BASE_BRANCH: main
-          BRANCH: build
-          FOLDER: public
-          SINGLE_COMMIT: true
+          branch: build
+          folder: public
+          clean: true
+          single-commit: true
