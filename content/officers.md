@@ -18,7 +18,6 @@ weight = 5
 | -------------- |
 | Nell Ziegler   |
 | Jean Houck     |
-| Lynn Jackson   |
 | Jennifer Jones |
 | Amanda Ladd    |
 
@@ -44,7 +43,6 @@ If you don't, it won't render correctly on the website.
 | Craig Brown   | [(315) 852-9712] |                            |
 | Sam Fuller    | [(315) 852-9963] |                            |
 | Jean Houck    | [(607) 753-7043] |                            |
-| Lynn Jackson  | [(315) 852-2067] |                            |
 | Danita Kinner | [(315) 852-9694] | [danitakinner@hotmail.com] |
 | Eric Kinner   | [(315) 852-9694] |                            |
 | Amanda Ladd   | [(315) 852-2040] |                            |
@@ -55,7 +53,6 @@ If you don't, it won't render correctly on the website.
 [(315) 852-9694]: tel:+13158529694
 [(315) 374-9605]: tel:+13153749605
 [(315) 852-9963]: tel:+13158529963
-[(315) 852-2067]: tel:+13158522067
 [(315) 852-9712]: tel:+13158529712
 [(315) 852-2040]: tel:+13158522040
 [danitakinner@hotmail.com]: mailto:danitakinner@hotmail.com

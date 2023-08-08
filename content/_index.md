@@ -49,5 +49,5 @@ Society.
 
 ## Museum Hours
 
-We are open from 2 to 4 PM on the second and fourth Saturdays of each month,
+We are open from 11 AM to 1 PM on the second and fourth Saturdays of each month,
 May to October, or by appointment.
