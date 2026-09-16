@@ -5,31 +5,22 @@ weight = 5
 
 # Society Officers
 
-| Role           | Name          |
-| -------------- | ------------- |
-| President      | Danita Kinner |
-| Vice President | Sam Fuller    |
-| Treasurer      | Eric Kinner   |
-| Secretary      | Craig Brown   |
+| Role           | Name                              |
+| -------------- | --------------------------------- |
+| President      | Michelle Freiberger               |
+| Vice President | Shawn Warren                      |
+| Treasurer      | Michelle Freiberger (pro tempore) |
+| Secretary      | Stephanie Troutman (pro tempore)  |
 
 # Trustees
 
 | Name           |
 | -------------- |
-| Nell Ziegler   |
+| Sam Fuller     |
 | Jean Houck     |
 | Jennifer Jones |
-| Amanda Ladd    |
-
-# Committee Chairs
-
-| Responsibility          | Name          |
-| ----------------------- | ------------- |
-| Newsletter & membership | Danita Kinner |
-| Construction            | Nell Ziegler  |
-| Programs                | Danita Kinner |
-| Grants                  | Nell Ziegler  |
-| Website                 | Jacob Pratt   |
+| Steven Best    |
+| Amanda Ladd (DeRuyter town historian) |
 
 # Contact Info
 
@@ -38,22 +29,18 @@ When updating phone numbers and emails, be sure to update the link as well!
 If you don't, it won't render correctly on the website.
 -->
 
-| Name          | Phone            | Email                      |
-| ------------- | ---------------- | -------------------------- |
-| Craig Brown   | [(315) 852-9712] |                            |
-| Sam Fuller    | [(315) 852-9963] |                            |
-| Jean Houck    | [(607) 753-7043] |                            |
-| Danita Kinner | [(315) 852-9694] | [danitakinner@hotmail.com] |
-| Eric Kinner   | [(315) 852-9694] |                            |
-| Amanda Ladd   | [(315) 852-2040] |                            |
-| Jacob Pratt   | Upon request     | [jacob@jhpratt.dev]        |
-| Nell Ziegler  | [(315) 374-9605] |                            |
+| Name                | Phone            | Email                          |
+| ------------------- | ---------------- | ------------------------------ |
+| Michelle Freiberger | [(315) 800-9077] | [DeRuyterHistorical@gmail.com] |
+| Sam Fuller          | [(315) 852-9963] |                                |
+| Jean Houck          | [(607) 753-7043] |                                |
+| Amanda Ladd         | [(315) 852-2040] | [ALadd@midyork.org]            |
+| Jacob Pratt         | upon request     | [jacob@jhpratt.dev]            |
 
+[(315) 800-9077]: tel:+13158009077
 [(607) 753-7043]: tel:+16077537043
-[(315) 852-9694]: tel:+13158529694
-[(315) 374-9605]: tel:+13153749605
 [(315) 852-9963]: tel:+13158529963
-[(315) 852-9712]: tel:+13158529712
 [(315) 852-2040]: tel:+13158522040
-[danitakinner@hotmail.com]: mailto:danitakinner@hotmail.com
-[jacob@jhpratt.dev]: [jacob@jhpratt.dev]
+[DeRuyterHistorical@gmail.com]: mailto:DeRuyterHistorical@gmail.com
+[ALadd@midyork.org]: mailto:ALadd@midyork.org
+[jacob@jhpratt.dev]: mailto:jacob@jhpratt.dev
