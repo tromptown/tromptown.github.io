@@ -5,12 +5,12 @@ weight = 5
 
 # Society Officers
 
-| Role           | Name                              |
-| -------------- | --------------------------------- |
-| President      | Michelle Freiberger               |
-| Vice President | Shawn Warren                      |
-| Treasurer      | Michelle Freiberger (pro tempore) |
-| Secretary      | Stephanie Troutman (pro tempore)  |
+| Role           | Name                |
+| -------------- | ------------------- |
+| President      | Michelle Freiberger |
+| Vice President | Shawn Warren        |
+| Treasurer      | Kelly Korb          |
+| Secretary      | Stephanie Troutman  |
 
 # Trustees
 
